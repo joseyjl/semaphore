@@ -1,0 +1,9 @@
+---
+- name: Verify connections to the servers
+  hosts: all
+  user: ansible
+  become: true 
+  tasks:
+  - name: Ping the servers "{{ tmn_hostname }}"
+    ping:
+        
