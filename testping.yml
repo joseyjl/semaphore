@@ -1,6 +1,5 @@
 ---
-- name: Verify connections to the servers
-  hosts: all
+- hosts: alk
   user: ansible
   become: true 
   tasks:
