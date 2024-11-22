@@ -4,6 +4,6 @@
   user: ansible
   become: true 
   tasks:
-  - name: Ping the servers "{{ tmn_hostname }}"
+  - name: Ping the servers 
     ping:
         
